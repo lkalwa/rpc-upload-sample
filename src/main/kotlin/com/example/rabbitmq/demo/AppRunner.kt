@@ -5,7 +5,7 @@ import org.springframework.boot.CommandLineRunner
 import org.springframework.context.ConfigurableApplicationContext
 
 class AppRunner : CommandLineRunner {
-    private val duration = 60000
+    private val duration = 30000
 
     @Autowired
     lateinit var ctx: ConfigurableApplicationContext
